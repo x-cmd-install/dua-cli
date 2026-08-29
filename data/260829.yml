@@ -1,0 +1,59 @@
+about:
+  description: View disk space usage and delete unwanted data, fast.
+  license: MIT
+  homepage: https://lib.rs/crates/dua-cli
+  head: 6fed577
+  archived: false
+  latestVersion: dua-core-v3.3.0
+  collectedAt: 2026-08-29T07:27:34Z
+timeline:
+  created: 2019-05-29
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-28
+popularity:
+  star: 6185
+  watcher: 27
+  fork: 169
+  release: 110
+  contributor: 71
+  pullRequest: 24
+  issue: 177
+language:
+  Rust: 545891
+  Shell: 12821
+  Makefile: 1997
+  Dockerfile: 162
+totalLine: 560871
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 12
+    mergedPR: 23
+    openPR: 2
+    closedIssue: 3
+    openIssue: 1
+    commit: 70
+  last90d:
+    since: 2026-05-31
+    release: 19
+    mergedPR: 39
+    openPR: 2
+    closedIssue: 7
+    openIssue: 1
+    commit: 117
+  last180d:
+    since: 2026-03-02
+    release: 19
+    mergedPR: 39
+    openPR: 2
+    closedIssue: 14
+    openIssue: 1
+    commit: 117
+  last360d:
+    since: 2025-09-03
+    release: 24
+    mergedPR: 51
+    openPR: 2
+    closedIssue: 21
+    openIssue: 5
+    commit: 147
