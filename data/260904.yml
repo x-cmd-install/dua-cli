@@ -7,13 +7,13 @@ about:
   head: f4f5aad
   archived: false
   latestVersion: v2.44.0
-  collectedAt: 2026-09-04T20:05:39Z
+  collectedAt: 2026-09-04T20:35:38Z
 timeline:
   created: 2019-05-29
   lastCommit: 2026-09-04
   lastRelease: 2026-08-30
 popularity:
-  star: 6225
+  star: 6224
   watcher: 27
   fork: 170
   release: 113
@@ -84,7 +84,7 @@ total:
   commit: 1278
 ---
 path: /home/runner/.x-repo/github.com/Byron/dua-cli
-collectedAt: 2026-09-04T20:05:40Z
+collectedAt: 2026-09-04T20:35:39Z
 loc:
   Rust:
     code: 22497
