@@ -7,7 +7,7 @@ about:
   latestVersion: "dua-core-v4.0.0"
   latestRelease: "dua-core-v4.0.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:04:48Z
+  collectedAt: 2026-09-10T22:46:10Z
 timeline:
   created: 2019-05-29
   lastCommit: 2026-09-10
@@ -86,7 +86,7 @@ total:
   commit: 1287
 ---
 path: /home/runner/.x-repo/github.com/Byron/dua-cli
-collectedAt: 2026-09-10T21:04:49Z
+collectedAt: 2026-09-10T22:46:11Z
 loc:
   Rust:
     code: 23353
