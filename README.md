@@ -14,11 +14,11 @@ x install dua-cli
 
 ## Code insight
 
-Total: **23,948** lines of code across **63** files in the top 5 languages.
+Total: **24,210** lines of code across **63** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 23,353 | 175 | 1,945 | 53 |
+| Rust | 23,615 | 185 | 1,956 | 53 |
 | Sh | 418 | 10 | 60 | 6 |
 | Toml | 135 | 2 | 19 | 2 |
 | Makefile | 37 | 2 | 19 | 1 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `dua-core-v4.0.0` (2026-09-07)
-- **Last commit**: 2026-09-10
+- **Last commit**: 2026-09-11
 
 ## Popularity
 
-- **Stars**: 6,245 · **Forks**: 171 · **Open issues**: 178 · **Contributors**: 71
+- **Stars**: 6,250 · **Forks**: 171 · **Open issues**: 178 · **Contributors**: 71
 
 ## Totals (cumulative)
 
-- **Releases**: 114 · **Merged PRs**: 170 · **Open PRs**: 2 · **Closed issues**: 178 · **Open issues**: 0 · **Commits**: 1287
+- **Releases**: 114 · **Merged PRs**: 172 · **Open PRs**: 1 · **Closed issues**: 178 · **Open issues**: 0 · **Commits**: 1292
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 11 | 30 | 2 | 2 | 0 | 68 |
-| last60d | 2026-07-13 | 19 | 44 | 2 | 6 | 0 | 117 |
-| 90d | 2026-06-13 | 23 | 52 | 2 | 8 | 0 | 145 |
-| last180d | 2026-03-15 | 23 | 54 | 2 | 16 | 0 | 147 |
-| 360d | 2025-09-16 | 27 | 65 | 2 | 25 | 0 | 174 |
-| last720d | 2024-09-21 | 33 | 76 | 2 | 40 | 0 | 280 |
+| 30d | 2026-08-12 | 11 | 32 | 1 | 2 | 0 | 71 |
+| last60d | 2026-07-13 | 19 | 46 | 1 | 6 | 0 | 120 |
+| 90d | 2026-06-13 | 23 | 54 | 1 | 8 | 0 | 148 |
+| last180d | 2026-03-15 | 23 | 56 | 1 | 16 | 0 | 150 |
+| 360d | 2025-09-16 | 27 | 67 | 1 | 25 | 0 | 177 |
+| last720d | 2024-09-21 | 33 | 78 | 1 | 40 | 0 | 285 |
 
 ## Distribution status
 
@@ -88,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T05:15:17Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T19:42:33Z._
