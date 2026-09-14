@@ -30,8 +30,8 @@ Overall score: **3.4 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (0/10) — Found 0/12 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 0/10 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,253 · **Forks**: 171 · **Open issues**: 178 · **Contributors**: 71
+- **Stars**: 6,257 · **Forks**: 171 · **Open issues**: 179 · **Contributors**: 71
 
 ## Totals (cumulative)
 
-- **Releases**: 116 · **Merged PRs**: 173 · **Open PRs**: 0 · **Closed issues**: 178 · **Open issues**: 0 · **Commits**: 1297
+- **Releases**: 116 · **Merged PRs**: 173 · **Open PRs**: 0 · **Closed issues**: 179 · **Open issues**: 0 · **Commits**: 1297
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 13 | 30 | 0 | 2 | 0 | 53 |
-| last60d | 2026-07-15 | 20 | 46 | 0 | 5 | 0 | 121 |
-| 90d | 2026-06-15 | 25 | 55 | 0 | 8 | 0 | 133 |
-| last180d | 2026-03-17 | 25 | 57 | 0 | 16 | 0 | 154 |
-| 360d | 2025-09-18 | 29 | 68 | 0 | 25 | 0 | 181 |
-| last720d | 2024-09-23 | 35 | 79 | 0 | 40 | 0 | 290 |
+| 30d | 2026-08-15 | 11 | 28 | 0 | 3 | 0 | 53 |
+| last60d | 2026-07-16 | 20 | 46 | 0 | 6 | 0 | 121 |
+| 90d | 2026-06-16 | 25 | 53 | 0 | 9 | 0 | 133 |
+| last180d | 2026-03-18 | 25 | 57 | 0 | 17 | 0 | 154 |
+| 360d | 2025-09-19 | 29 | 68 | 0 | 26 | 0 | 181 |
+| last720d | 2024-09-24 | 35 | 79 | 0 | 41 | 0 | 290 |
 
 ## Release assets
 
@@ -79,21 +79,6 @@ Lowest-scoring checks:
 | [dua-v2.45.0-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-x86_64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
 | [dua-v2.45.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **84** distros on [repology.org](https://repology.org/project/dua-cli). **4** are ✅ on the latest upstream release, **71** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.34.0` | ⚠️ outdated |
-| Debian 14 | `2.34.0` | ⚠️ outdated |
-| Arch | `2.44.0` | ⚠️ outdated |
-| Homebrew | `2.45.0` | ✅ latest |
-| Fedora rawhide | `2.38.1` | ⚠️ outdated |
-| Nix unstable | `2.44.0` | ⚠️ outdated |
-| Void | `2.44.0` | ⚠️ outdated |
-| Alpine edge | `2.34.0` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `dua-cli` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -103,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:22:21Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:31:10Z._
