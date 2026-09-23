@@ -4,7 +4,7 @@
 
 View disk space usage and delete unwanted data, fast.
 
-[![x-cmd/install — dua-cli Code Quality Monitoring Repo Card](https://repo.x-cmd.io/dua-cli.svg)](https://x-cmd.com/install/dua-cli)
+[![x-cmd/install — dua-cli Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/dua-cli.svg)](https://x-cmd.com/install/dua-cli)
 
 ## Install
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.45.0` (2026-09-12)
-- **Last commit**: 2026-09-12
+- **Last commit**: 2026-09-22
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 6,289 · **Forks**: 169 · **Open issues**: 179 · **Contributors**: 71
+- **Stars**: 6,292 · **Forks**: 170 · **Open issues**: 179 · **Contributors**: 72
 
 ## Totals (cumulative)
 
-- **Releases**: 116 · **Merged PRs**: 173 · **Open PRs**: 0 · **Closed issues**: 179 · **Open issues**: 0 · **Commits**: 1297
+- **Releases**: 116 · **Merged PRs**: 174 · **Open PRs**: 0 · **Closed issues**: 179 · **Open issues**: 0 · **Commits**: 1299
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 9 | 20 | 0 | 3 | 0 | 39 |
-| last60d | 2026-07-24 | 19 | 44 | 0 | 6 | 0 | 112 |
-| 90d | 2026-06-24 | 22 | 50 | 0 | 9 | 0 | 131 |
-| last180d | 2026-03-26 | 25 | 57 | 0 | 16 | 0 | 154 |
-| 360d | 2025-09-27 | 29 | 68 | 0 | 25 | 0 | 181 |
-| last720d | 2024-10-02 | 35 | 79 | 0 | 41 | 0 | 290 |
+| 30d | 2026-08-24 | 9 | 21 | 0 | 3 | 0 | 40 |
+| last60d | 2026-07-25 | 19 | 45 | 0 | 6 | 0 | 113 |
+| 90d | 2026-06-25 | 22 | 51 | 0 | 7 | 0 | 132 |
+| last180d | 2026-03-27 | 25 | 58 | 0 | 16 | 0 | 155 |
+| 360d | 2025-09-28 | 29 | 69 | 0 | 25 | 0 | 182 |
+| last720d | 2024-10-03 | 35 | 80 | 0 | 41 | 0 | 292 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:32:57Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:36:11Z._
