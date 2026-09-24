@@ -30,9 +30,9 @@ Overall score: **3.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/12 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 1/12 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,292 · **Forks**: 170 · **Open issues**: 179 · **Contributors**: 72
+- **Stars**: 6,295 · **Forks**: 170 · **Open issues**: 179 · **Contributors**: 72
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 9 | 21 | 0 | 3 | 0 | 40 |
-| last60d | 2026-07-25 | 19 | 45 | 0 | 6 | 0 | 113 |
-| 90d | 2026-06-25 | 22 | 51 | 0 | 7 | 0 | 132 |
-| last180d | 2026-03-27 | 25 | 58 | 0 | 16 | 0 | 155 |
-| 360d | 2025-09-28 | 29 | 69 | 0 | 25 | 0 | 182 |
-| last720d | 2024-10-03 | 35 | 80 | 0 | 41 | 0 | 292 |
+| 30d | 2026-08-25 | 9 | 20 | 0 | 3 | 0 | 40 |
+| last60d | 2026-07-26 | 19 | 45 | 0 | 6 | 0 | 113 |
+| 90d | 2026-06-26 | 22 | 51 | 0 | 7 | 0 | 132 |
+| last180d | 2026-03-28 | 25 | 58 | 0 | 16 | 0 | 155 |
+| 360d | 2025-09-29 | 29 | 69 | 0 | 25 | 0 | 182 |
+| last720d | 2024-10-04 | 35 | 80 | 0 | 41 | 0 | 292 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T05:36:11Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:11:02Z._
