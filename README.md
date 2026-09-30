@@ -14,11 +14,11 @@ x install dua-cli
 
 ## Code insight
 
-Total: **28,887** lines of code across **70** files in the top 5 languages.
+Total: **28,915** lines of code across **70** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 28,293 | 227 | 2,151 | 60 |
+| Rust | 28,321 | 231 | 2,154 | 60 |
 | Sh | 418 | 10 | 60 | 6 |
 | Toml | 134 | 2 | 19 | 2 |
 | Makefile | 37 | 2 | 19 | 1 |
@@ -43,41 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.45.0` (2026-09-12)
-- **Last commit**: 2026-09-25
-- **Assets in release**: 9
+- **Last commit**: 2026-09-29
 
 ## Popularity
 
-- **Stars**: 6,308 · **Forks**: 172 · **Open issues**: 179 · **Contributors**: 72
+- **Stars**: 6,312 · **Forks**: 173 · **Open issues**: 182 · **Contributors**: 73
 
 ## Totals (cumulative)
 
-- **Releases**: 116 · **Merged PRs**: 175 · **Open PRs**: 0 · **Closed issues**: 179 · **Open issues**: 0 · **Commits**: 1301
+- **Releases**: 116 · **Merged PRs**: 176 · **Open PRs**: 2 · **Closed issues**: 180 · **Open issues**: 2 · **Commits**: 1303
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 5 | 13 | 0 | 2 | 0 | 15 |
-| last60d | 2026-07-31 | 17 | 42 | 0 | 6 | 0 | 82 |
-| 90d | 2026-07-01 | 21 | 51 | 0 | 7 | 0 | 131 |
-| last180d | 2026-04-02 | 25 | 59 | 0 | 16 | 0 | 156 |
-| 360d | 2025-10-04 | 29 | 70 | 0 | 25 | 0 | 183 |
-| last720d | 2024-10-09 | 35 | 81 | 0 | 41 | 0 | 294 |
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [dua-v2.45.0-aarch64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-aarch64-apple-darwin.tar.gz) | 2.0 MiB | `native/darwin/arm64` |
-| [dua-v2.45.0-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-aarch64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/arm64` |
-| [dua-v2.45.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
-| [dua-v2.45.0-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-arm-unknown-linux-gnueabihf.tar.gz) | 2.3 MiB | `native/linux/arm/glibc` |
-| [dua-v2.45.0-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-i686-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [dua-v2.45.0-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
-| [dua-v2.45.0-x86_64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-x86_64-apple-darwin.tar.gz) | 2.2 MiB | `native/darwin/x64` |
-| [dua-v2.45.0-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-x86_64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [dua-v2.45.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.0/dua-v2.45.0-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
+| 30d | 2026-08-31 | 3 | 13 | 2 | 3 | 2 | 16 |
+| last60d | 2026-08-01 | 16 | 42 | 2 | 7 | 2 | 83 |
+| 90d | 2026-07-02 | 21 | 52 | 2 | 8 | 2 | 132 |
+| last180d | 2026-04-03 | 25 | 60 | 2 | 17 | 2 | 157 |
+| 360d | 2025-10-05 | 29 | 71 | 2 | 26 | 2 | 184 |
+| last720d | 2024-10-10 | 35 | 82 | 2 | 42 | 2 | 296 |
 
 ## Improve this data
 
@@ -88,4 +73,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:26:10Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:01:13Z._
