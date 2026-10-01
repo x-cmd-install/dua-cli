@@ -14,11 +14,11 @@ x install dua-cli
 
 ## Code insight
 
-Total: **28,915** lines of code across **70** files in the top 5 languages.
+Total: **29,196** lines of code across **70** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 28,321 | 231 | 2,154 | 60 |
+| Rust | 28,602 | 251 | 2,177 | 60 |
 | Sh | 418 | 10 | 60 | 6 |
 | Toml | 134 | 2 | 19 | 2 |
 | Makefile | 37 | 2 | 19 | 1 |
@@ -42,27 +42,42 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2.45.0` (2026-09-12)
-- **Last commit**: 2026-09-29
+- **Latest**: `v2.45.1` (2026-09-30)
+- **Last commit**: 2026-09-30
+- **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 6,312 · **Forks**: 173 · **Open issues**: 182 · **Contributors**: 73
+- **Stars**: 6,315 · **Forks**: 173 · **Open issues**: 182 · **Contributors**: 73
 
 ## Totals (cumulative)
 
-- **Releases**: 116 · **Merged PRs**: 176 · **Open PRs**: 2 · **Closed issues**: 180 · **Open issues**: 2 · **Commits**: 1303
+- **Releases**: 117 · **Merged PRs**: 178 · **Open PRs**: 0 · **Closed issues**: 182 · **Open issues**: 0 · **Commits**: 1309
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 3 | 13 | 2 | 3 | 2 | 16 |
-| last60d | 2026-08-01 | 16 | 42 | 2 | 7 | 2 | 83 |
-| 90d | 2026-07-02 | 21 | 52 | 2 | 8 | 2 | 132 |
-| last180d | 2026-04-03 | 25 | 60 | 2 | 17 | 2 | 157 |
-| 360d | 2025-10-05 | 29 | 71 | 2 | 26 | 2 | 184 |
-| last720d | 2024-10-10 | 35 | 82 | 2 | 42 | 2 | 296 |
+| 30d | 2026-09-01 | 4 | 15 | 0 | 5 | 0 | 20 |
+| last60d | 2026-08-02 | 16 | 43 | 0 | 9 | 0 | 87 |
+| 90d | 2026-07-03 | 22 | 54 | 0 | 10 | 0 | 136 |
+| last180d | 2026-04-04 | 26 | 62 | 0 | 19 | 0 | 161 |
+| 360d | 2025-10-06 | 30 | 73 | 0 | 28 | 0 | 188 |
+| last720d | 2024-10-11 | 36 | 84 | 0 | 44 | 0 | 302 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [dua-v2.45.1-aarch64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-aarch64-apple-darwin.tar.gz) | 2.0 MiB | `native/darwin/arm64` |
+| [dua-v2.45.1-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-aarch64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/arm64` |
+| [dua-v2.45.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
+| [dua-v2.45.1-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-arm-unknown-linux-gnueabihf.tar.gz) | 2.3 MiB | `native/linux/arm/glibc` |
+| [dua-v2.45.1-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-i686-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
+| [dua-v2.45.1-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
+| [dua-v2.45.1-x86_64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-x86_64-apple-darwin.tar.gz) | 2.2 MiB | `native/darwin/x64` |
+| [dua-v2.45.1-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-x86_64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
+| [dua-v2.45.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
 
 ## Improve this data
 
@@ -73,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T06:01:13Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:25:55Z._
