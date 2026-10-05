@@ -14,11 +14,11 @@ x install dua-cli
 
 ## Code insight
 
-Total: **29,196** lines of code across **70** files in the top 5 languages.
+Total: **29,216** lines of code across **70** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 28,602 | 251 | 2,177 | 60 |
+| Rust | 28,622 | 252 | 2,178 | 60 |
 | Sh | 418 | 10 | 60 | 6 |
 | Toml | 134 | 2 | 19 | 2 |
 | Makefile | 37 | 2 | 19 | 1 |
@@ -26,11 +26,11 @@ Total: **29,196** lines of code across **70** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.4 / 10**
+Overall score: **3.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/13 approved changesets -- score normalized to 0
+- **Code-Review** (2/10) — Found 4/15 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.45.1` (2026-09-30)
-- **Last commit**: 2026-09-30
+- **Last commit**: 2026-10-05
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 6,320 · **Forks**: 173 · **Open issues**: 182 · **Contributors**: 73
+- **Stars**: 6,321 · **Forks**: 173 · **Open issues**: 182 · **Contributors**: 73
 
 ## Totals (cumulative)
 
-- **Releases**: 117 · **Merged PRs**: 178 · **Open PRs**: 1 · **Closed issues**: 182 · **Open issues**: 0 · **Commits**: 1309
+- **Releases**: 117 · **Merged PRs**: 179 · **Open PRs**: 0 · **Closed issues**: 182 · **Open issues**: 0 · **Commits**: 1312
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 4 | 12 | 1 | 4 | 0 | 20 |
-| last60d | 2026-08-05 | 14 | 39 | 1 | 8 | 0 | 87 |
-| 90d | 2026-07-06 | 22 | 54 | 1 | 10 | 0 | 136 |
-| last180d | 2026-04-07 | 26 | 62 | 1 | 19 | 0 | 161 |
-| 360d | 2025-10-09 | 30 | 73 | 1 | 28 | 0 | 188 |
-| last720d | 2024-10-14 | 36 | 84 | 1 | 44 | 0 | 302 |
+| 30d | 2026-09-05 | 4 | 12 | 0 | 4 | 0 | 15 |
+| last60d | 2026-08-06 | 14 | 40 | 0 | 7 | 0 | 87 |
+| 90d | 2026-07-07 | 22 | 54 | 0 | 10 | 0 | 137 |
+| last180d | 2026-04-08 | 26 | 63 | 0 | 18 | 0 | 163 |
+| 360d | 2025-10-10 | 30 | 74 | 0 | 28 | 0 | 190 |
+| last720d | 2024-10-15 | 36 | 85 | 0 | 44 | 0 | 305 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T06:17:34Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T06:10:18Z._
