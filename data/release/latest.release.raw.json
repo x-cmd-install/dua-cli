@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2079656,
       "digest": "sha256:fdc3149dd99287f007f67ad81b2c75cfa23fed653007f1cb9a83f5a333e683e1",
-      "download_count": 146,
+      "download_count": 183,
       "created_at": "2026-09-30T11:37:46Z",
       "updated_at": "2026-09-30T11:37:46Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-aarch64-apple-darwin.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2169111,
       "digest": "sha256:292cc9a9cb46e7156c440b9ce9ec5acd975752db9d3673ffb7eb6173bab517f3",
-      "download_count": 48,
+      "download_count": 66,
       "created_at": "2026-09-30T11:40:07Z",
       "updated_at": "2026-09-30T11:40:07Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-aarch64-pc-windows-msvc.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2323430,
       "digest": "sha256:8549719a92187491c1a6956aefddbd815ee5b3217491f2a3d98f2cc388bcb5ef",
-      "download_count": 110,
+      "download_count": 143,
       "created_at": "2026-09-30T11:38:14Z",
       "updated_at": "2026-09-30T11:38:14Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-aarch64-unknown-linux-musl.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 2413748,
       "digest": "sha256:ba9abd16cc5940a6061d9a6d07fc954e19960d0821c1ccfa6084742d36c23fc8",
-      "download_count": 11,
+      "download_count": 21,
       "created_at": "2026-09-30T11:38:04Z",
       "updated_at": "2026-09-30T11:38:05Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-arm-unknown-linux-gnueabihf.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2169075,
       "digest": "sha256:086571faa962f8eab3696eb39656001f13561a70d56d041cbb26532535d8e163",
-      "download_count": 30,
+      "download_count": 42,
       "created_at": "2026-09-30T11:40:12Z",
       "updated_at": "2026-09-30T11:40:13Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-i686-pc-windows-msvc.zip"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 2255130,
       "digest": "sha256:cb2aa38c12e4b6a3b4b405a02d9a22dd1967b3b3559869e91ebfb41397f5d67d",
-      "download_count": 81,
+      "download_count": 106,
       "created_at": "2026-09-30T11:38:01Z",
       "updated_at": "2026-09-30T11:38:02Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-x86_64-apple-darwin.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 2169099,
       "digest": "sha256:48c245f987c5359df0302202e6338e3235e4a4724db58d7d66138b096e8b2015",
-      "download_count": 502,
+      "download_count": 593,
       "created_at": "2026-09-30T11:39:24Z",
       "updated_at": "2026-09-30T11:39:24Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-x86_64-pc-windows-msvc.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 2494791,
       "digest": "sha256:e9279f02bbbf22611c1602c4d5b526c9b99962d3d828016d48a0ee5b27252805",
-      "download_count": 700,
+      "download_count": 841,
       "created_at": "2026-09-30T11:38:12Z",
       "updated_at": "2026-09-30T11:38:13Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-x86_64-unknown-linux-musl.tar.gz"
