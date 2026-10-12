@@ -26,11 +26,11 @@ Total: **29,216** lines of code across **70** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.6 / 10**
+Overall score: **3.7 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 4/15 approved changesets -- score normalized to 2
+- **Code-Review** (3/10) — Found 5/14 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,341 · **Forks**: 173 · **Open issues**: 182 · **Contributors**: 73
+- **Stars**: 6,342 · **Forks**: 173 · **Open issues**: 182 · **Contributors**: 73
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 3 | 6 | 0 | 4 | 0 | 15 |
-| last60d | 2026-08-12 | 14 | 39 | 0 | 6 | 0 | 87 |
-| 90d | 2026-07-13 | 22 | 53 | 0 | 10 | 0 | 137 |
-| last180d | 2026-04-14 | 26 | 63 | 0 | 17 | 0 | 163 |
-| 360d | 2025-10-16 | 30 | 74 | 0 | 28 | 0 | 190 |
-| last720d | 2024-10-21 | 36 | 85 | 0 | 44 | 0 | 305 |
+| 30d | 2026-09-12 | 3 | 6 | 0 | 4 | 0 | 9 |
+| last60d | 2026-08-13 | 14 | 39 | 0 | 6 | 0 | 62 |
+| 90d | 2026-07-14 | 22 | 52 | 0 | 9 | 0 | 133 |
+| last180d | 2026-04-15 | 26 | 63 | 0 | 17 | 0 | 163 |
+| 360d | 2025-10-17 | 30 | 74 | 0 | 28 | 0 | 190 |
+| last720d | 2024-10-22 | 36 | 85 | 0 | 44 | 0 | 305 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T06:09:05Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T06:26:43Z._
