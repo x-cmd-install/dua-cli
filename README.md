@@ -42,42 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2.45.1` (2026-09-30)
+- **Latest**: `dua-core-v4.2.0` (2026-10-13)
 - **Last commit**: 2026-10-13
-- **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 6,345 · **Forks**: 174 · **Open issues**: 182 · **Contributors**: 74
+- **Stars**: 6,347 · **Forks**: 174 · **Open issues**: 182 · **Contributors**: 74
 
 ## Totals (cumulative)
 
-- **Releases**: 117 · **Merged PRs**: 180 · **Open PRs**: 0 · **Closed issues**: 182 · **Open issues**: 0 · **Commits**: 1316
+- **Releases**: 118 · **Merged PRs**: 180 · **Open PRs**: 0 · **Closed issues**: 182 · **Open issues**: 0 · **Commits**: 1317
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 1 | 7 | 0 | 3 | 0 | 0 |
-| last60d | 2026-08-14 | 14 | 37 | 0 | 6 | 0 | 0 |
-| 90d | 2026-07-15 | 21 | 53 | 0 | 9 | 0 | 0 |
-| last180d | 2026-04-16 | 26 | 64 | 0 | 17 | 0 | 0 |
-| 360d | 2025-10-18 | 30 | 75 | 0 | 28 | 0 | 0 |
-| last720d | 2024-10-23 | 36 | 86 | 0 | 44 | 0 | 309 |
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [dua-v2.45.1-aarch64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-aarch64-apple-darwin.tar.gz) | 2.0 MiB | `native/darwin/arm64` |
-| [dua-v2.45.1-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-aarch64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/arm64` |
-| [dua-v2.45.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
-| [dua-v2.45.1-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-arm-unknown-linux-gnueabihf.tar.gz) | 2.3 MiB | `native/linux/arm/glibc` |
-| [dua-v2.45.1-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-i686-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [dua-v2.45.1-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
-| [dua-v2.45.1-x86_64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-x86_64-apple-darwin.tar.gz) | 2.2 MiB | `native/darwin/x64` |
-| [dua-v2.45.1-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-x86_64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [dua-v2.45.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
+| 30d | 2026-09-14 | 2 | 7 | 0 | 3 | 0 | 13 |
+| last60d | 2026-08-15 | 13 | 35 | 0 | 6 | 0 | 66 |
+| 90d | 2026-07-16 | 22 | 53 | 0 | 9 | 0 | 137 |
+| last180d | 2026-04-17 | 27 | 64 | 0 | 17 | 0 | 167 |
+| 360d | 2025-10-19 | 31 | 75 | 0 | 28 | 0 | 194 |
+| last720d | 2024-10-24 | 37 | 86 | 0 | 44 | 0 | 310 |
 
 ## Improve this data
 
@@ -88,4 +73,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:20:03Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:37:05Z._
