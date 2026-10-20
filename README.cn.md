@@ -26,12 +26,12 @@ x install dua-cli
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.7 / 10**
+总评分: **3.8 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (3/10) — Found 5/14 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (4/10) — Found 7/17 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -48,7 +48,7 @@ x install dua-cli
 
 ## 流行度
 
-- **Star**: 6,365 · **Fork**: 175 · **开放 issue**: 183 · **贡献者**: 75
+- **Star**: 6,366 · **Fork**: 175 · **开放 issue**: 183 · **贡献者**: 75
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install dua-cli
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 4 | 8 | 0 | 4 | 0 | 17 |
-| last60d | 2026-08-20 | 13 | 29 | 0 | 7 | 0 | 58 |
-| 90d | 2026-07-21 | 23 | 53 | 0 | 10 | 0 | 137 |
-| last180d | 2026-04-22 | 29 | 65 | 0 | 18 | 0 | 173 |
-| 360d | 2025-10-24 | 33 | 76 | 0 | 29 | 0 | 192 |
-| last720d | 2024-10-29 | 39 | 87 | 0 | 45 | 0 | 317 |
+| 30d | 2026-09-20 | 4 | 8 | 0 | 4 | 0 | 17 |
+| last60d | 2026-08-21 | 13 | 28 | 0 | 7 | 0 | 58 |
+| 90d | 2026-07-22 | 23 | 53 | 0 | 10 | 0 | 137 |
+| last180d | 2026-04-23 | 29 | 65 | 0 | 18 | 0 | 173 |
+| 360d | 2025-10-25 | 33 | 76 | 0 | 29 | 0 | 192 |
+| last720d | 2024-10-30 | 39 | 87 | 0 | 45 | 0 | 317 |
 
 ## Release 资产
 
@@ -88,4 +88,4 @@ dua-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261019.yml` · 2026-10-19T05:19:47Z._
+_数据快照: `data/card/261020.yml` · 2026-10-20T05:18:20Z._
