@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,368 · **Forks**: 175 · **Open issues**: 183 · **Contributors**: 75
+- **Stars**: 6,371 · **Forks**: 176 · **Open issues**: 183 · **Contributors**: 75
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 4 | 8 | 0 | 4 | 0 | 17 |
-| last60d | 2026-08-22 | 13 | 28 | 0 | 7 | 0 | 58 |
-| 90d | 2026-07-23 | 23 | 52 | 0 | 10 | 0 | 137 |
-| last180d | 2026-04-24 | 29 | 65 | 0 | 18 | 0 | 173 |
-| 360d | 2025-10-26 | 33 | 76 | 0 | 29 | 0 | 192 |
-| last720d | 2024-10-31 | 39 | 87 | 0 | 45 | 0 | 317 |
+| 30d | 2026-09-22 | 4 | 7 | 0 | 4 | 0 | 17 |
+| last60d | 2026-08-23 | 13 | 28 | 0 | 7 | 0 | 58 |
+| 90d | 2026-07-24 | 23 | 52 | 0 | 10 | 0 | 137 |
+| last180d | 2026-04-25 | 29 | 65 | 0 | 18 | 0 | 173 |
+| 360d | 2025-10-27 | 33 | 76 | 0 | 28 | 0 | 192 |
+| last720d | 2024-11-01 | 39 | 87 | 0 | 45 | 0 | 317 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T05:07:01Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T05:17:21Z._
