@@ -48,7 +48,7 @@ x install dua-cli
 
 ## 流行度
 
-- **Star**: 6,371 · **Fork**: 176 · **开放 issue**: 183 · **贡献者**: 75
+- **Star**: 6,375 · **Fork**: 177 · **开放 issue**: 183 · **贡献者**: 75
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install dua-cli
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 4 | 7 | 0 | 4 | 0 | 17 |
-| last60d | 2026-08-23 | 13 | 28 | 0 | 7 | 0 | 58 |
-| 90d | 2026-07-24 | 23 | 52 | 0 | 10 | 0 | 137 |
-| last180d | 2026-04-25 | 29 | 65 | 0 | 18 | 0 | 173 |
-| 360d | 2025-10-27 | 33 | 76 | 0 | 28 | 0 | 192 |
-| last720d | 2024-11-01 | 39 | 87 | 0 | 45 | 0 | 317 |
+| 30d | 2026-09-23 | 4 | 7 | 0 | 4 | 0 | 17 |
+| last60d | 2026-08-24 | 13 | 28 | 0 | 7 | 0 | 58 |
+| 90d | 2026-07-25 | 23 | 52 | 0 | 10 | 0 | 137 |
+| last180d | 2026-04-26 | 29 | 65 | 0 | 18 | 0 | 173 |
+| 360d | 2025-10-28 | 33 | 75 | 0 | 28 | 0 | 192 |
+| last720d | 2024-11-02 | 39 | 87 | 0 | 44 | 0 | 317 |
 
 ## Release 资产
 
@@ -79,6 +79,21 @@ x install dua-cli
 | [dua-v2.46.0-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-x86_64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
 | [dua-v2.46.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/dua-cli) 上共有 **85** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**56** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.34.0` | ⚠️ outdated |
+| Debian 14 | `2.34.0` | ⚠️ outdated |
+| Arch | `2.46.0` | ✅ latest |
+| Homebrew | `2.46.0` | ✅ latest |
+| Fedora rawhide | `2.38.1` | ⚠️ outdated |
+| Nix unstable | `2.46.0` | ✅ latest |
+| Void | `2.44.0` | ⚠️ outdated |
+| Alpine edge | `2.34.0` | ⚠️ outdated |
+
 ## 改进这些数据
 
 dua-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `dua-cli` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -88,4 +103,4 @@ dua-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:17:21Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:10:16Z._

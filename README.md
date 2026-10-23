@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,371 · **Forks**: 176 · **Open issues**: 183 · **Contributors**: 75
+- **Stars**: 6,375 · **Forks**: 177 · **Open issues**: 183 · **Contributors**: 75
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 4 | 7 | 0 | 4 | 0 | 17 |
-| last60d | 2026-08-23 | 13 | 28 | 0 | 7 | 0 | 58 |
-| 90d | 2026-07-24 | 23 | 52 | 0 | 10 | 0 | 137 |
-| last180d | 2026-04-25 | 29 | 65 | 0 | 18 | 0 | 173 |
-| 360d | 2025-10-27 | 33 | 76 | 0 | 28 | 0 | 192 |
-| last720d | 2024-11-01 | 39 | 87 | 0 | 45 | 0 | 317 |
+| 30d | 2026-09-23 | 4 | 7 | 0 | 4 | 0 | 17 |
+| last60d | 2026-08-24 | 13 | 28 | 0 | 7 | 0 | 58 |
+| 90d | 2026-07-25 | 23 | 52 | 0 | 10 | 0 | 137 |
+| last180d | 2026-04-26 | 29 | 65 | 0 | 18 | 0 | 173 |
+| 360d | 2025-10-28 | 33 | 75 | 0 | 28 | 0 | 192 |
+| last720d | 2024-11-02 | 39 | 87 | 0 | 44 | 0 | 317 |
 
 ## Release assets
 
@@ -79,6 +79,21 @@ Lowest-scoring checks:
 | [dua-v2.46.0-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-x86_64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
 | [dua-v2.46.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
 
+## Distribution status
+
+Reported by **85** distros on [repology.org](https://repology.org/project/dua-cli). **19** are ✅ on the latest upstream release, **56** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.34.0` | ⚠️ outdated |
+| Debian 14 | `2.34.0` | ⚠️ outdated |
+| Arch | `2.46.0` | ✅ latest |
+| Homebrew | `2.46.0` | ✅ latest |
+| Fedora rawhide | `2.38.1` | ⚠️ outdated |
+| Nix unstable | `2.46.0` | ✅ latest |
+| Void | `2.44.0` | ⚠️ outdated |
+| Alpine edge | `2.34.0` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `dua-cli` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -88,4 +103,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:17:21Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:10:16Z._
