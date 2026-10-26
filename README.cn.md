@@ -14,12 +14,12 @@ x install dua-cli
 
 ## 代码洞察
 
-合计: **29,422** 行代码（覆盖前 5 种语言、共 **70** 个文件）。
+合计: **29,567** 行代码（覆盖前 5 种语言、共 **73** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 28,828 | 258 | 2,187 | 60 |
-| Sh | 418 | 10 | 60 | 6 |
+| Rust | 28,953 | 261 | 2,196 | 62 |
+| Sh | 438 | 13 | 63 | 7 |
 | Toml | 134 | 2 | 19 | 2 |
 | Makefile | 37 | 2 | 19 | 1 |
 | Dockerfile | 5 | 0 | 3 | 1 |
@@ -31,7 +31,7 @@ x install dua-cli
 评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (4/10) — Found 7/17 approved changesets -- score normalized to 4
+- **Code-Review** (4/10) — Found 7/16 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -42,42 +42,27 @@ x install dua-cli
 
 ## 发布
 
-- **最新版本**: `v2.46.0` (2026-10-15)
-- **最近提交**: 2026-10-24
-- **Release 含资产**: 9 个
+- **最新版本**: `dua-core-v5.0.1` (2026-10-25)
+- **最近提交**: 2026-10-25
 
 ## 流行度
 
-- **Star**: 6,383 · **Fork**: 177 · **开放 issue**: 183 · **贡献者**: 76
+- **Star**: 6,387 · **Fork**: 177 · **开放 issue**: 185 · **贡献者**: 76
 
 ## 累计统计
 
-- **发布数**: 120 · **已合并 PR**: 182 · **开放 PR**: 0 · **已关闭 issue**: 183 · **开放 issue**: 0 · **提交数**: 1326
+- **发布数**: 121 · **已合并 PR**: 183 · **开放 PR**: 0 · **已关闭 issue**: 185 · **开放 issue**: 0 · **提交数**: 1329
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 4 | 7 | 0 | 4 | 0 | 18 |
-| last60d | 2026-08-26 | 11 | 28 | 0 | 7 | 0 | 59 |
-| 90d | 2026-07-27 | 23 | 53 | 0 | 10 | 0 | 138 |
-| last180d | 2026-04-28 | 29 | 66 | 0 | 18 | 0 | 174 |
-| 360d | 2025-10-30 | 31 | 76 | 0 | 28 | 0 | 193 |
-| last720d | 2024-11-04 | 37 | 86 | 0 | 42 | 0 | 312 |
-
-## Release 资产
-
-| 资产 | 大小 | 目标平台 |
-|------|-----:|----------|
-| [dua-v2.46.0-aarch64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-aarch64-apple-darwin.tar.gz) | 2.0 MiB | `native/darwin/arm64` |
-| [dua-v2.46.0-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-aarch64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/arm64` |
-| [dua-v2.46.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
-| [dua-v2.46.0-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-arm-unknown-linux-gnueabihf.tar.gz) | 2.3 MiB | `native/linux/arm/glibc` |
-| [dua-v2.46.0-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-i686-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [dua-v2.46.0-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
-| [dua-v2.46.0-x86_64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-x86_64-apple-darwin.tar.gz) | 2.2 MiB | `native/darwin/x64` |
-| [dua-v2.46.0-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-x86_64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [dua-v2.46.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
+| 30d | 2026-09-26 | 5 | 8 | 0 | 6 | 0 | 15 |
+| last60d | 2026-08-27 | 12 | 29 | 0 | 9 | 0 | 42 |
+| 90d | 2026-07-28 | 24 | 53 | 0 | 12 | 0 | 116 |
+| last180d | 2026-04-29 | 30 | 67 | 0 | 20 | 0 | 176 |
+| 360d | 2025-10-31 | 32 | 77 | 0 | 30 | 0 | 192 |
+| last720d | 2024-11-05 | 38 | 87 | 0 | 44 | 0 | 315 |
 
 ## 发行版状态
 
@@ -103,4 +88,4 @@ dua-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261025.yml` · 2026-10-25T05:01:17Z._
+_数据快照: `data/card/261026.yml` · 2026-10-26T05:09:58Z._

@@ -14,12 +14,12 @@ x install dua-cli
 
 ## Code insight
 
-Total: **29,422** lines of code across **70** files in the top 5 languages.
+Total: **29,567** lines of code across **73** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 28,828 | 258 | 2,187 | 60 |
-| Sh | 418 | 10 | 60 | 6 |
+| Rust | 28,953 | 261 | 2,196 | 62 |
+| Sh | 438 | 13 | 63 | 7 |
 | Toml | 134 | 2 | 19 | 2 |
 | Makefile | 37 | 2 | 19 | 1 |
 | Dockerfile | 5 | 0 | 3 | 1 |
@@ -31,7 +31,7 @@ Overall score: **3.8 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (4/10) — Found 7/17 approved changesets -- score normalized to 4
+- **Code-Review** (4/10) — Found 7/16 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -42,42 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2.46.0` (2026-10-15)
-- **Last commit**: 2026-10-24
-- **Assets in release**: 9
+- **Latest**: `dua-core-v5.0.1` (2026-10-25)
+- **Last commit**: 2026-10-25
 
 ## Popularity
 
-- **Stars**: 6,383 · **Forks**: 177 · **Open issues**: 183 · **Contributors**: 76
+- **Stars**: 6,387 · **Forks**: 177 · **Open issues**: 185 · **Contributors**: 76
 
 ## Totals (cumulative)
 
-- **Releases**: 120 · **Merged PRs**: 182 · **Open PRs**: 0 · **Closed issues**: 183 · **Open issues**: 0 · **Commits**: 1326
+- **Releases**: 121 · **Merged PRs**: 183 · **Open PRs**: 0 · **Closed issues**: 185 · **Open issues**: 0 · **Commits**: 1329
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 4 | 7 | 0 | 4 | 0 | 18 |
-| last60d | 2026-08-26 | 11 | 28 | 0 | 7 | 0 | 59 |
-| 90d | 2026-07-27 | 23 | 53 | 0 | 10 | 0 | 138 |
-| last180d | 2026-04-28 | 29 | 66 | 0 | 18 | 0 | 174 |
-| 360d | 2025-10-30 | 31 | 76 | 0 | 28 | 0 | 193 |
-| last720d | 2024-11-04 | 37 | 86 | 0 | 42 | 0 | 312 |
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [dua-v2.46.0-aarch64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-aarch64-apple-darwin.tar.gz) | 2.0 MiB | `native/darwin/arm64` |
-| [dua-v2.46.0-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-aarch64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/arm64` |
-| [dua-v2.46.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
-| [dua-v2.46.0-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-arm-unknown-linux-gnueabihf.tar.gz) | 2.3 MiB | `native/linux/arm/glibc` |
-| [dua-v2.46.0-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-i686-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [dua-v2.46.0-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
-| [dua-v2.46.0-x86_64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-x86_64-apple-darwin.tar.gz) | 2.2 MiB | `native/darwin/x64` |
-| [dua-v2.46.0-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-x86_64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [dua-v2.46.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v2.46.0/dua-v2.46.0-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
+| 30d | 2026-09-26 | 5 | 8 | 0 | 6 | 0 | 15 |
+| last60d | 2026-08-27 | 12 | 29 | 0 | 9 | 0 | 42 |
+| 90d | 2026-07-28 | 24 | 53 | 0 | 12 | 0 | 116 |
+| last180d | 2026-04-29 | 30 | 67 | 0 | 20 | 0 | 176 |
+| 360d | 2025-10-31 | 32 | 77 | 0 | 30 | 0 | 192 |
+| last720d | 2024-11-05 | 38 | 87 | 0 | 44 | 0 | 315 |
 
 ## Distribution status
 
@@ -103,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:01:16Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:09:57Z._
