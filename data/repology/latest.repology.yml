@@ -493,6 +493,16 @@
     - MIT
   categories:
     - Unspecified
+- repo: msys2_ucrt64
+  srcname: mingw-w64-dua-cli
+  binname: mingw-w64-ucrt-x86_64-dua-cli
+  visiblename: mingw-w64-ucrt-x86_64-dua-cli
+  version: 2.46.0
+  origversion: 2.46.0-1
+  status: newest
+  summary: View disk space usage and delete unwanted data, fast (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: fedora_40
   subrepo: updates
   srcname: rust-dua-cli
@@ -723,32 +733,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: rust-dua-cli
-  binnames:
-    - dua-cli
-    - rust-dua-cli-devel
-    - rust-dua-cli+default-devel
-    - rust-dua-cli+crossterm-devel
-    - rust-dua-cli+open-devel
-    - rust-dua-cli+trash-devel
-    - rust-dua-cli+trash-move-devel
-    - rust-dua-cli+tui-devel
-    - rust-dua-cli+tui-crossplatform-devel
-    - rust-dua-cli+unicode-segmentation-devel
-    - rust-dua-cli+unicode-width-devel
-    - rust-dua-cli-debuginfo
-    - rust-dua-cli-debugsource
-  visiblename: rust-dua-cli
-  version: 2.38.1
-  origversion: 2.38.1-3.fc44
-  status: outdated
-  summary: Tool to conveniently learn about the disk usage of directories
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: rust-dua-cli
   binnames:
@@ -770,6 +754,32 @@
   version: 2.32.2
   origversion: 2.32.2-4.fc44
   status: legacy
+  summary: Tool to conveniently learn about the disk usage of directories
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-dua-cli
+  binnames:
+    - dua-cli
+    - rust-dua-cli-devel
+    - rust-dua-cli+default-devel
+    - rust-dua-cli+crossterm-devel
+    - rust-dua-cli+open-devel
+    - rust-dua-cli+trash-devel
+    - rust-dua-cli+trash-move-devel
+    - rust-dua-cli+tui-devel
+    - rust-dua-cli+tui-crossplatform-devel
+    - rust-dua-cli+unicode-segmentation-devel
+    - rust-dua-cli+unicode-width-devel
+    - rust-dua-cli-debuginfo
+    - rust-dua-cli-debugsource
+  visiblename: rust-dua-cli
+  version: 2.38.1
+  origversion: 2.38.1-3.fc44
+  status: outdated
   summary: Tool to conveniently learn about the disk usage of directories
   licenses:
     - MIT
@@ -1007,16 +1017,6 @@
   srcname: mingw-w64-dua-cli
   binname: mingw-w64-clang-aarch64-dua-cli
   visiblename: mingw-w64-clang-aarch64-dua-cli
-  version: 2.46.0
-  origversion: 2.46.0-1
-  status: newest
-  summary: View disk space usage and delete unwanted data, fast (mingw-w64)
-  licenses:
-    - spdx:MIT
-- repo: msys2_ucrt64
-  srcname: mingw-w64-dua-cli
-  binname: mingw-w64-ucrt-x86_64-dua-cli
-  visiblename: mingw-w64-ucrt-x86_64-dua-cli
   version: 2.46.0
   origversion: 2.46.0-1
   status: newest
