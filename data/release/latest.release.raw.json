@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/Byron/dua-cli/releases/423449486",
-  "assets_url": "https://api.github.com/repos/Byron/dua-cli/releases/423449486/assets",
-  "upload_url": "https://uploads.github.com/repos/Byron/dua-cli/releases/423449486/assets{?name,label}",
-  "html_url": "https://github.com/Byron/dua-cli/releases/tag/dua-core-v5.0.1",
-  "id": 423449486,
+  "url": "https://api.github.com/repos/Byron/dua-cli/releases/429701307",
+  "assets_url": "https://api.github.com/repos/Byron/dua-cli/releases/429701307/assets",
+  "upload_url": "https://uploads.github.com/repos/Byron/dua-cli/releases/429701307/assets{?name,label}",
+  "html_url": "https://github.com/Byron/dua-cli/releases/tag/dua-core-v5.0.2",
+  "id": 429701307,
   "author": {
     "login": "Byron",
     "id": 63622,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOC0cxwM4ZPVOO",
-  "tag_name": "dua-core-v5.0.1",
+  "node_id": "RE_kwDOC0cxwM4ZnLi7",
+  "tag_name": "dua-core-v5.0.2",
   "target_commitish": "main",
-  "name": "dua-core v5.0.1",
+  "name": "dua-core v5.0.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-25T14:20:37Z",
-  "updated_at": "2026-10-25T14:20:40Z",
-  "published_at": "2026-10-25T14:20:40Z",
+  "created_at": "2026-10-31T03:40:02Z",
+  "updated_at": "2026-10-31T03:40:04Z",
+  "published_at": "2026-10-31T03:40:04Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/Byron/dua-cli/tarball/dua-core-v5.0.1",
-  "zipball_url": "https://api.github.com/repos/Byron/dua-cli/zipball/dua-core-v5.0.1",
-  "body": "### Bug Fixes\n\n - fall back when macOS bulk directory reads are unavailable\n   The new implementation can have a performance impact if the bulk reads are turned\n   off, but this can be controlled with configuration so shouldn't be a problem.\n   Also, it's for old systems.\n   \n   <!-- agent -->\n   PowerPC and macOS before 10.10 do not provide getattrlistbulk, so\n   unconditional native directory enumeration leaves dua-core consumers\n   with an undefined symbol at link time.\n   \n   Select bulk reads from the target architecture and deployment version in\n   build.rs. Respect MACOSX_DEPLOYMENT_TARGET, otherwise query the target\n   compiler's default; unknown versions and architectures use ordinary\n   directory reads. Keep the existing macOS entry/metadata API and preserve\n   requested APFS clone metadata in the fallback.\n   \n   Review identified an unused 64 KiB allocation per directory in fallback\n   builds. Make that buffer zero-sized, avoiding the heap allocation while\n   keeping the shared reader layout and fallback behavior.\n   \n   Also omit clock_gettime before macOS 10.12, leaving the metadata probe's\n   existing missing-clock behavior in place.\n - avoid reading past HEADER_SIZE in Windows ReadDir::entry_at\n   `FILE_ID_BOTH_DIR_INFO` has a 104-byte fixed header (`HEADER_SIZE`) followed by `FileName: [u16; 1]` (2 bytes) and 6 bytes of trailing alignment padding (`size_of::<FILE_ID_BOTH_DIR_INFO>() == 112`).\n\n### Commit Statistics\n\n - 4 commits contributed to the release.\n - 10 days passed between releases.\n - 2 commits were understood as [conventional](https://www.conventionalcommits.org).\n - 1 unique issue was worked on: #417\n\n### Commit Details\n\n<csr-read-only-do-not-edit/>\n\n<details><summary>view details</summary>\n\n * **#417**\n    - Fall back when macOS bulk directory reads are unavailable (67c8576)\n * **Uncategorized**\n    - Merge pull request #418 from Byron/conditional-bulk-macos (fb5d863)\n    - Merge pull request #416 from kiranani/fix-windows-entry-at-oob-read (48c91c7)\n    - Avoid reading past HEADER_SIZE in Windows ReadDir::entry_at (b5ef287)\n</details>\n\n"
+  "tarball_url": "https://api.github.com/repos/Byron/dua-cli/tarball/dua-core-v5.0.2",
+  "zipball_url": "https://api.github.com/repos/Byron/dua-cli/zipball/dua-core-v5.0.2",
+  "body": "Add license files to the release package.\n\n### Chore\n\n - thanks clippy\n\n### Commit Statistics\n\n - 4 commits contributed to the release.\n - 6 days passed between releases.\n - 1 commit was understood as [conventional](https://www.conventionalcommits.org).\n - 0 issues like '(#ID)' were seen in commit messages\n\n### Thanks Clippy\n\n[Clippy](https://github.com/rust-lang/rust-clippy) helped 1 time to make code idiomatic. \n\n### Commit Details\n\n<csr-read-only-do-not-edit/>\n\n<details><summary>view details</summary>\n\n * **Uncategorized**\n    - Prepare changelog prior to dua-core release (3f954df)\n    - Merge pull request #420 from blinxen/main (cca6d29)\n    - Thanks clippy (996041e)\n    - Add license link to dua-core so it gets published to crates.io too (55d0c54)\n</details>\n\n"
 }
