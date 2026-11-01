@@ -40,5 +40,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/Byron/dua-cli/tarball/dua-core-v5.0.2",
   "zipball_url": "https://api.github.com/repos/Byron/dua-cli/zipball/dua-core-v5.0.2",
-  "body": "Add license files to the release package.\n\n### Chore\n\n - thanks clippy\n\n### Commit Statistics\n\n - 4 commits contributed to the release.\n - 6 days passed between releases.\n - 1 commit was understood as [conventional](https://www.conventionalcommits.org).\n - 0 issues like '(#ID)' were seen in commit messages\n\n### Thanks Clippy\n\n[Clippy](https://github.com/rust-lang/rust-clippy) helped 1 time to make code idiomatic. \n\n### Commit Details\n\n<csr-read-only-do-not-edit/>\n\n<details><summary>view details</summary>\n\n * **Uncategorized**\n    - Prepare changelog prior to dua-core release (3f954df)\n    - Merge pull request #420 from blinxen/main (cca6d29)\n    - Thanks clippy (996041e)\n    - Add license link to dua-core so it gets published to crates.io too (55d0c54)\n</details>\n\n"
+  "body": "Add license files to the release package.\n\n### Chore\n\n - thanks clippy\n\n### Commit Statistics\n\n - 4 commits contributed to the release.\n - 6 days passed between releases.\n - 1 commit was understood as [conventional](https://www.conventionalcommits.org).\n - 0 issues like '(#ID)' were seen in commit messages\n\n### Thanks Clippy\n\n[Clippy](https://github.com/rust-lang/rust-clippy) helped 1 time to make code idiomatic. \n\n### Commit Details\n\n<csr-read-only-do-not-edit/>\n\n<details><summary>view details</summary>\n\n * **Uncategorized**\n    - Prepare changelog prior to dua-core release (3f954df)\n    - Merge pull request #420 from blinxen/main (cca6d29)\n    - Thanks clippy (996041e)\n    - Add license link to dua-core so it gets published to crates.io too (55d0c54)\n</details>\n\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/Byron/dua-cli/releases/429701307/reactions",
+    "total_count": 2,
+    "+1": 2,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
