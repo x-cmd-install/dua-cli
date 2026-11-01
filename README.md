@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 5 | 6 | 0 | 3 | 0 | 19 |
-| last60d | 2026-09-01 | 9 | 21 | 0 | 8 | 0 | 46 |
-| 90d | 2026-08-02 | 21 | 49 | 0 | 12 | 0 | 120 |
-| last180d | 2026-05-04 | 31 | 68 | 0 | 20 | 0 | 180 |
-| 360d | 2025-11-05 | 33 | 77 | 0 | 30 | 0 | 196 |
-| last720d | 2024-11-10 | 39 | 88 | 0 | 44 | 0 | 320 |
+| 30d | 2026-10-02 | 5 | 6 | 0 | 3 | 0 | 19 |
+| last60d | 2026-09-02 | 9 | 21 | 0 | 8 | 0 | 46 |
+| 90d | 2026-08-03 | 21 | 47 | 0 | 12 | 0 | 120 |
+| last180d | 2026-05-05 | 31 | 68 | 0 | 20 | 0 | 180 |
+| 360d | 2025-11-06 | 33 | 77 | 0 | 30 | 0 | 196 |
+| last720d | 2024-11-11 | 39 | 88 | 0 | 44 | 0 | 320 |
 
 ## Distribution status
 
@@ -88,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:17:11Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:33:56Z._
