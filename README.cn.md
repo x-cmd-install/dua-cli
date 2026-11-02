@@ -30,8 +30,8 @@ x install dua-cli
 
 评分最低的几项:
 
+- **Code-Review** (4/10) — Found 7/17 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (4/10) — Found 7/16 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -47,22 +47,22 @@ x install dua-cli
 
 ## 流行度
 
-- **Star**: 6,401 · **Fork**: 179 · **开放 issue**: 185 · **贡献者**: 76
+- **Star**: 6,404 · **Fork**: 181 · **开放 issue**: 187 · **贡献者**: 76
 
 ## 累计统计
 
-- **发布数**: 122 · **已合并 PR**: 184 · **开放 PR**: 0 · **已关闭 issue**: 185 · **开放 issue**: 0 · **提交数**: 1334
+- **发布数**: 122 · **已合并 PR**: 184 · **开放 PR**: 0 · **已关闭 issue**: 185 · **开放 issue**: 2 · **提交数**: 1334
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 5 | 6 | 0 | 3 | 0 | 19 |
-| last60d | 2026-09-02 | 9 | 21 | 0 | 8 | 0 | 46 |
-| 90d | 2026-08-03 | 21 | 47 | 0 | 12 | 0 | 120 |
-| last180d | 2026-05-05 | 31 | 68 | 0 | 20 | 0 | 180 |
-| 360d | 2025-11-06 | 33 | 77 | 0 | 30 | 0 | 196 |
-| last720d | 2024-11-11 | 39 | 88 | 0 | 44 | 0 | 320 |
+| 30d | 2026-10-03 | 5 | 5 | 0 | 3 | 2 | 17 |
+| last60d | 2026-09-03 | 9 | 19 | 0 | 7 | 2 | 34 |
+| 90d | 2026-08-04 | 20 | 45 | 0 | 12 | 2 | 104 |
+| last180d | 2026-05-06 | 31 | 68 | 0 | 20 | 2 | 180 |
+| 360d | 2025-11-07 | 33 | 77 | 0 | 29 | 2 | 196 |
+| last720d | 2024-11-12 | 39 | 88 | 0 | 44 | 2 | 320 |
 
 ## 发行版状态
 
@@ -88,4 +88,4 @@ dua-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261101.yml` · 2026-11-01T06:33:57Z._
+_数据快照: `data/card/261102.yml` · 2026-11-02T06:38:16Z._

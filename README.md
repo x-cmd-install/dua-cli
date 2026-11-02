@@ -30,8 +30,8 @@ Overall score: **3.8 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (4/10) — Found 7/17 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (4/10) — Found 7/16 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,401 · **Forks**: 179 · **Open issues**: 185 · **Contributors**: 76
+- **Stars**: 6,404 · **Forks**: 181 · **Open issues**: 187 · **Contributors**: 76
 
 ## Totals (cumulative)
 
-- **Releases**: 122 · **Merged PRs**: 184 · **Open PRs**: 0 · **Closed issues**: 185 · **Open issues**: 0 · **Commits**: 1334
+- **Releases**: 122 · **Merged PRs**: 184 · **Open PRs**: 0 · **Closed issues**: 185 · **Open issues**: 2 · **Commits**: 1334
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 5 | 6 | 0 | 3 | 0 | 19 |
-| last60d | 2026-09-02 | 9 | 21 | 0 | 8 | 0 | 46 |
-| 90d | 2026-08-03 | 21 | 47 | 0 | 12 | 0 | 120 |
-| last180d | 2026-05-05 | 31 | 68 | 0 | 20 | 0 | 180 |
-| 360d | 2025-11-06 | 33 | 77 | 0 | 30 | 0 | 196 |
-| last720d | 2024-11-11 | 39 | 88 | 0 | 44 | 0 | 320 |
+| 30d | 2026-10-03 | 5 | 5 | 0 | 3 | 2 | 17 |
+| last60d | 2026-09-03 | 9 | 19 | 0 | 7 | 2 | 34 |
+| 90d | 2026-08-04 | 20 | 45 | 0 | 12 | 2 | 104 |
+| last180d | 2026-05-06 | 31 | 68 | 0 | 20 | 2 | 180 |
+| 360d | 2025-11-07 | 33 | 77 | 0 | 29 | 2 | 196 |
+| last720d | 2024-11-12 | 39 | 88 | 0 | 44 | 2 | 320 |
 
 ## Distribution status
 
@@ -88,4 +88,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:33:56Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:38:15Z._
