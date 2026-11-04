@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 7 | 8 | 0 | 6 | 0 | 27 |
-| last60d | 2026-09-04 | 11 | 21 | 0 | 10 | 0 | 44 |
-| 90d | 2026-08-05 | 21 | 48 | 0 | 14 | 0 | 114 |
-| last180d | 2026-05-07 | 33 | 71 | 0 | 23 | 0 | 190 |
-| 360d | 2025-11-08 | 35 | 80 | 0 | 32 | 0 | 206 |
-| last720d | 2024-11-13 | 41 | 91 | 0 | 47 | 0 | 333 |
+| 30d | 2026-10-05 | 7 | 8 | 0 | 6 | 0 | 27 |
+| last60d | 2026-09-05 | 11 | 20 | 0 | 10 | 0 | 44 |
+| 90d | 2026-08-06 | 21 | 48 | 0 | 13 | 0 | 114 |
+| last180d | 2026-05-08 | 33 | 71 | 0 | 23 | 0 | 190 |
+| 360d | 2025-11-09 | 35 | 80 | 0 | 32 | 0 | 206 |
+| last720d | 2024-11-14 | 41 | 91 | 0 | 47 | 0 | 333 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **85** distros on [repology.org](https://repology.org/project/dua-cli). **8** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
+Reported by **85** distros on [repology.org](https://repology.org/project/dua-cli). **13** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:25:23Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:54:27Z._
