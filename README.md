@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,418 · **Forks**: 180 · **Open issues**: 188 · **Contributors**: 77
+- **Stars**: 6,421 · **Forks**: 181 · **Open issues**: 188 · **Contributors**: 77
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 7 | 8 | 0 | 6 | 0 | 27 |
-| last60d | 2026-09-08 | 10 | 18 | 0 | 10 | 0 | 44 |
-| 90d | 2026-08-09 | 21 | 48 | 0 | 13 | 0 | 114 |
-| last180d | 2026-05-11 | 33 | 71 | 0 | 23 | 0 | 190 |
-| 360d | 2025-11-12 | 35 | 80 | 0 | 32 | 0 | 206 |
-| last720d | 2024-11-17 | 41 | 91 | 0 | 47 | 0 | 333 |
+| 30d | 2026-10-09 | 7 | 8 | 0 | 6 | 0 | 27 |
+| last60d | 2026-09-09 | 10 | 17 | 0 | 10 | 0 | 44 |
+| 90d | 2026-08-10 | 21 | 48 | 0 | 13 | 0 | 114 |
+| last180d | 2026-05-12 | 33 | 71 | 0 | 23 | 0 | 190 |
+| 360d | 2025-11-13 | 35 | 80 | 0 | 32 | 0 | 206 |
+| last720d | 2024-11-18 | 41 | 91 | 0 | 47 | 0 | 333 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **86** distros on [repology.org](https://repology.org/project/dua-cli). **17** are ✅ on the latest upstream release, **59** are ⚠️ on an older version.
+Reported by **87** distros on [repology.org](https://repology.org/project/dua-cli). **21** are ✅ on the latest upstream release, **56** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,7 +92,7 @@ Reported by **86** distros on [repology.org](https://repology.org/project/dua-cl
 | Fedora rawhide | `2.38.1` | ⚠️ outdated |
 | Nix unstable | `2.46.0` | ⚠️ outdated |
 | Void | `2.44.0` | ⚠️ outdated |
-| Alpine edge | `2.34.0` | ⚠️ outdated |
+| Alpine edge | `3.0.0` | ✅ latest |
 
 ## Improve this data
 
@@ -103,4 +103,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:24:45Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:27:20Z._
