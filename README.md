@@ -26,11 +26,11 @@ Total: **29,918** lines of code across **74** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.8 / 10**
+Overall score: **3.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 7/17 approved changesets -- score normalized to 4
+- **Code-Review** (2/10) — Found 4/14 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,421 · **Forks**: 181 · **Open issues**: 188 · **Contributors**: 77
+- **Stars**: 6,423 · **Forks**: 181 · **Open issues**: 188 · **Contributors**: 77
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 7 | 8 | 0 | 6 | 0 | 27 |
-| last60d | 2026-09-09 | 10 | 17 | 0 | 10 | 0 | 44 |
-| 90d | 2026-08-10 | 21 | 48 | 0 | 13 | 0 | 114 |
-| last180d | 2026-05-12 | 33 | 71 | 0 | 23 | 0 | 190 |
-| 360d | 2025-11-13 | 35 | 80 | 0 | 32 | 0 | 206 |
-| last720d | 2024-11-18 | 41 | 91 | 0 | 47 | 0 | 333 |
+| 30d | 2026-10-10 | 7 | 8 | 0 | 6 | 0 | 19 |
+| last60d | 2026-09-10 | 10 | 16 | 0 | 10 | 0 | 36 |
+| 90d | 2026-08-11 | 21 | 48 | 0 | 13 | 0 | 90 |
+| last180d | 2026-05-13 | 33 | 71 | 0 | 23 | 0 | 190 |
+| 360d | 2025-11-14 | 35 | 80 | 0 | 32 | 0 | 206 |
+| last720d | 2024-11-19 | 41 | 91 | 0 | 47 | 0 | 333 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **87** distros on [repology.org](https://repology.org/project/dua-cli). **21** are ✅ on the latest upstream release, **56** are ⚠️ on an older version.
+Reported by **87** distros on [repology.org](https://repology.org/project/dua-cli). **22** are ✅ on the latest upstream release, **55** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:27:20Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:08:21Z._

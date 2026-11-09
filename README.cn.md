@@ -26,11 +26,11 @@ x install dua-cli
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.8 / 10**
+总评分: **3.6 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (4/10) — Found 7/17 approved changesets -- score normalized to 4
+- **Code-Review** (2/10) — Found 4/14 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -48,7 +48,7 @@ x install dua-cli
 
 ## 流行度
 
-- **Star**: 6,421 · **Fork**: 181 · **开放 issue**: 188 · **贡献者**: 77
+- **Star**: 6,423 · **Fork**: 181 · **开放 issue**: 188 · **贡献者**: 77
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install dua-cli
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 7 | 8 | 0 | 6 | 0 | 27 |
-| last60d | 2026-09-09 | 10 | 17 | 0 | 10 | 0 | 44 |
-| 90d | 2026-08-10 | 21 | 48 | 0 | 13 | 0 | 114 |
-| last180d | 2026-05-12 | 33 | 71 | 0 | 23 | 0 | 190 |
-| 360d | 2025-11-13 | 35 | 80 | 0 | 32 | 0 | 206 |
-| last720d | 2024-11-18 | 41 | 91 | 0 | 47 | 0 | 333 |
+| 30d | 2026-10-10 | 7 | 8 | 0 | 6 | 0 | 19 |
+| last60d | 2026-09-10 | 10 | 16 | 0 | 10 | 0 | 36 |
+| 90d | 2026-08-11 | 21 | 48 | 0 | 13 | 0 | 90 |
+| last180d | 2026-05-13 | 33 | 71 | 0 | 23 | 0 | 190 |
+| 360d | 2025-11-14 | 35 | 80 | 0 | 32 | 0 | 206 |
+| last720d | 2024-11-19 | 41 | 91 | 0 | 47 | 0 | 333 |
 
 ## Release 资产
 
@@ -81,7 +81,7 @@ x install dua-cli
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/dua-cli) 上共有 **87** 个发行版报告此项目。**21** 个 ✅ 已是最新上游版本，**56** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/dua-cli) 上共有 **87** 个发行版报告此项目。**22** 个 ✅ 已是最新上游版本，**55** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -103,4 +103,4 @@ dua-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261108.yml` · 2026-11-08T06:27:20Z._
+_数据快照: `data/card/261109.yml` · 2026-11-09T07:08:21Z._
