@@ -14,13 +14,13 @@ x install dua-cli
 
 ## Code insight
 
-Total: **29,918** lines of code across **74** files in the top 5 languages.
+Total: **29,920** lines of code across **74** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Rust | 29,285 | 262 | 2,217 | 63 |
 | Sh | 438 | 13 | 63 | 7 |
-| Toml | 153 | 3 | 25 | 2 |
+| Toml | 155 | 3 | 26 | 2 |
 | Makefile | 37 | 2 | 19 | 1 |
 | Dockerfile | 5 | 0 | 3 | 1 |
 
@@ -42,57 +42,55 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v3.0.0` (2026-11-02)
-- **Last commit**: 2026-11-03
-- **Assets in release**: 9
+- **Latest**: `v3.0.1` (2026-11-09)
+- **Last commit**: 2026-11-09
+- **Assets in release**: 7
 
 ## Popularity
 
-- **Stars**: 6,423 · **Forks**: 181 · **Open issues**: 188 · **Contributors**: 77
+- **Stars**: 6,424 · **Forks**: 181 · **Open issues**: 189 · **Contributors**: 77
 
 ## Totals (cumulative)
 
-- **Releases**: 124 · **Merged PRs**: 187 · **Open PRs**: 0 · **Closed issues**: 188 · **Open issues**: 0 · **Commits**: 1347
+- **Releases**: 125 · **Merged PRs**: 188 · **Open PRs**: 0 · **Closed issues**: 189 · **Open issues**: 0 · **Commits**: 1351
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 7 | 8 | 0 | 6 | 0 | 19 |
-| last60d | 2026-09-10 | 10 | 16 | 0 | 10 | 0 | 36 |
-| 90d | 2026-08-11 | 21 | 48 | 0 | 13 | 0 | 90 |
-| last180d | 2026-05-13 | 33 | 71 | 0 | 23 | 0 | 190 |
-| 360d | 2025-11-14 | 35 | 80 | 0 | 32 | 0 | 206 |
-| last720d | 2024-11-19 | 41 | 91 | 0 | 47 | 0 | 333 |
+| 30d | 2026-10-11 | 8 | 9 | 0 | 7 | 0 | 22 |
+| last60d | 2026-09-11 | 11 | 15 | 0 | 11 | 0 | 39 |
+| 90d | 2026-08-12 | 22 | 48 | 0 | 13 | 0 | 93 |
+| last180d | 2026-05-14 | 34 | 72 | 0 | 24 | 0 | 193 |
+| 360d | 2025-11-15 | 36 | 81 | 0 | 33 | 0 | 209 |
+| last720d | 2024-11-20 | 42 | 92 | 0 | 48 | 0 | 337 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [dua-v3.0.0-aarch64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.0/dua-v3.0.0-aarch64-apple-darwin.tar.gz) | 2.0 MiB | `native/darwin/arm64` |
-| [dua-v3.0.0-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.0/dua-v3.0.0-aarch64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/arm64` |
-| [dua-v3.0.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.0/dua-v3.0.0-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
-| [dua-v3.0.0-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.0/dua-v3.0.0-arm-unknown-linux-gnueabihf.tar.gz) | 2.3 MiB | `native/linux/arm/glibc` |
-| [dua-v3.0.0-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.0/dua-v3.0.0-i686-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [dua-v3.0.0-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.0/dua-v3.0.0-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
-| [dua-v3.0.0-x86_64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.0/dua-v3.0.0-x86_64-apple-darwin.tar.gz) | 2.2 MiB | `native/darwin/x64` |
-| [dua-v3.0.0-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.0/dua-v3.0.0-x86_64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [dua-v3.0.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.0/dua-v3.0.0-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
+| [dua-v3.0.1-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-aarch64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/arm64` |
+| [dua-v3.0.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
+| [dua-v3.0.1-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-arm-unknown-linux-gnueabihf.tar.gz) | 2.2 MiB | `native/linux/arm/glibc` |
+| [dua-v3.0.1-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-i686-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
+| [dua-v3.0.1-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
+| [dua-v3.0.1-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-x86_64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
+| [dua-v3.0.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
 
 ## Distribution status
 
-Reported by **87** distros on [repology.org](https://repology.org/project/dua-cli). **22** are ✅ on the latest upstream release, **55** are ⚠️ on an older version.
+Reported by **87** distros on [repology.org](https://repology.org/project/dua-cli). **3** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `2.34.0` | ⚠️ outdated |
 | Debian 14 | `2.34.0` | ⚠️ outdated |
-| Arch | `3.0.0` | ✅ latest |
-| Homebrew | `3.0.0` | ✅ latest |
+| Arch | `3.0.0` | ⚠️ outdated |
+| Homebrew | `3.0.0` | ⚠️ outdated |
 | Fedora rawhide | `2.38.1` | ⚠️ outdated |
 | Nix unstable | `2.46.0` | ⚠️ outdated |
 | Void | `2.44.0` | ⚠️ outdated |
-| Alpine edge | `3.0.0` | ✅ latest |
+| Alpine edge | `3.0.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -103,4 +101,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T07:08:21Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:46:55Z._
