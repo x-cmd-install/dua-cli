@@ -1,10 +1,26 @@
-- repo: crates_io
-  srcname: dua-cli
-  visiblename: dua-cli
-  version: 3.0.1
+- repo: openbsd
+  srcname: sysutils/dua
+  binname: dua
+  visiblename: sysutils/dua
+  version: 2.33.0
   origversion: null
-  status: newest
+  status: outdated
+  summary: disk usage analyzer
+  maintainers:
+    - edd@openbsd.org
+  categories:
+    - sysutils
+- repo: parabola
+  subrepo: extra
+  srcname: dua-cli
+  binname: dua-cli
+  visiblename: dua-cli
+  version: 3.0.0
+  origversion: 3.0.0-1
+  status: outdated
   summary: A tool to conveniently learn about the disk usage of directories, fast!
+  licenses:
+    - MIT
 - repo: aerynos
   srcname: dua-cli
   visiblename: dua-cli
@@ -345,6 +361,13 @@
   summary: TUI disk usage analyzer (zsh completions)
   licenses:
     - MIT
+- repo: crates_io
+  srcname: dua-cli
+  visiblename: dua-cli
+  version: 3.0.1
+  origversion: null
+  status: newest
+  summary: A tool to conveniently learn about the disk usage of directories, fast!
 - repo: crux_37
   subrepo: contrib
   srcname: dua-cli
@@ -465,6 +488,17 @@
     - MIT
   categories:
     - Unspecified
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: dua-cli
+  binname: dua-cli
+  visiblename: dua-cli
+  version: 3.0.1
+  origversion: 3.0.1-1
+  status: newest
+  summary: A tool to conveniently learn about the disk usage of directories, fast!
+  licenses:
+    - MIT
 - repo: fedora_39
   subrepo: release
   srcname: rust-dua-cli
@@ -488,6 +522,33 @@
   version: 2.20.1
   origversion: 2.20.1-1.fc39
   status: legacy
+  summary: Tool to conveniently learn about the disk usage of directories
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: rust-dua-cli
+  binnames:
+    - dua-cli
+    - rust-dua-cli-devel
+    - rust-dua-cli+default-devel
+    - rust-dua-cli+crosstermion-devel
+    - rust-dua-cli+open-devel
+    - rust-dua-cli+trash-devel
+    - rust-dua-cli+trash-move-devel
+    - rust-dua-cli+tui-devel
+    - rust-dua-cli+tui-crossplatform-devel
+    - rust-dua-cli+tui-react-devel
+    - rust-dua-cli+unicode-segmentation-devel
+    - rust-dua-cli+unicode-width-devel
+    - rust-dua-cli-debuginfo
+    - rust-dua-cli-debugsource
+  visiblename: rust-dua-cli
+  version: 2.29.2
+  origversion: 2.29.2-3.fc40
+  status: outdated
   summary: Tool to conveniently learn about the disk usage of directories
   licenses:
     - MIT
@@ -520,22 +581,8 @@
     - MIT
   categories:
     - Unspecified
-- repo: liguros_stable
-  srcname: sys-fs/dua-cli
-  visiblename: sys-fs/dua-cli
-  version: 2.31.0
-  origversion: null
-  status: outdated
-  summary: A tool to conveniently learn about the disk usage of directories, fast!
-  maintainers:
-    - freijon@pm.me
-  licenses:
-    - MIT
-    - Unicode-DFS-2016
-  categories:
-    - sys-fs
-- repo: fedora_40
-  subrepo: updates
+- repo: fedora_41
+  subrepo: release
   srcname: rust-dua-cli
   binnames:
     - dua-cli
@@ -554,8 +601,8 @@
     - rust-dua-cli-debugsource
   visiblename: rust-dua-cli
   version: 2.29.2
-  origversion: 2.29.2-3.fc40
-  status: outdated
+  origversion: 2.29.2-1.fc41
+  status: legacy
   summary: Tool to conveniently learn about the disk usage of directories
   licenses:
     - MIT
@@ -588,7 +635,7 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_42
   subrepo: release
   srcname: rust-dua-cli
   binnames:
@@ -608,7 +655,7 @@
     - rust-dua-cli-debugsource
   visiblename: rust-dua-cli
   version: 2.29.2
-  origversion: 2.29.2-1.fc41
+  origversion: 2.29.2-3.fc42
   status: legacy
   summary: Tool to conveniently learn about the disk usage of directories
   licenses:
@@ -637,33 +684,6 @@
   version: 2.32.2
   origversion: 2.32.2-4.fc42
   status: outdated
-  summary: Tool to conveniently learn about the disk usage of directories
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: rust-dua-cli
-  binnames:
-    - dua-cli
-    - rust-dua-cli-devel
-    - rust-dua-cli+default-devel
-    - rust-dua-cli+crosstermion-devel
-    - rust-dua-cli+open-devel
-    - rust-dua-cli+trash-devel
-    - rust-dua-cli+trash-move-devel
-    - rust-dua-cli+tui-devel
-    - rust-dua-cli+tui-crossplatform-devel
-    - rust-dua-cli+tui-react-devel
-    - rust-dua-cli+unicode-segmentation-devel
-    - rust-dua-cli+unicode-width-devel
-    - rust-dua-cli-debuginfo
-    - rust-dua-cli-debugsource
-  visiblename: rust-dua-cli
-  version: 2.29.2
-  origversion: 2.29.2-3.fc42
-  status: legacy
   summary: Tool to conveniently learn about the disk usage of directories
   licenses:
     - MIT
@@ -722,6 +742,16 @@
     - MIT
   categories:
     - Unspecified
+- repo: msys2_clang64
+  srcname: mingw-w64-dua-cli
+  binname: mingw-w64-clang-x86_64-dua-cli
+  visiblename: mingw-w64-clang-x86_64-dua-cli
+  version: 3.0.1
+  origversion: 3.0.1-1
+  status: newest
+  summary: View disk space usage and delete unwanted data, fast (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: fedora_44
   subrepo: updates
   srcname: rust-dua-cli
@@ -775,19 +805,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: nix_stable_25_05
-  srcname: dua
-  visiblename: dua
-  version: 2.32.0
-  origversion: null
-  status: outdated
-  summary: Tool to conveniently learn about the disk usage of directories
-  maintainers:
-    - figsoda@pm.me
-    - killercup@gmail.com
-    - defelo@github
-  licenses:
-    - MIT
 - repo: fedora_rawhide
   subrepo: development
   srcname: rust-dua-cli
@@ -891,6 +908,20 @@
     - nilsonfsilva@hotmail.com
   categories:
     - utils
+- repo: liguros_stable
+  srcname: sys-fs/dua-cli
+  visiblename: sys-fs/dua-cli
+  version: 2.31.0
+  origversion: null
+  status: outdated
+  summary: A tool to conveniently learn about the disk usage of directories, fast!
+  maintainers:
+    - freijon@pm.me
+  licenses:
+    - MIT
+    - Unicode-DFS-2016
+  categories:
+    - sys-fs
 - repo: liguros_develop
   srcname: sys-fs/dua-cli
   visiblename: sys-fs/dua-cli
@@ -983,34 +1014,13 @@
   summary: A tool to conveniently learn about the disk usage of directories, fast!
   licenses:
     - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: dua-cli
-  binname: dua-cli
-  visiblename: dua-cli
-  version: 3.0.1
-  origversion: 3.0.1-1
-  status: newest
-  summary: A tool to conveniently learn about the disk usage of directories, fast!
-  licenses:
-    - MIT
-- repo: msys2_clang64
-  srcname: mingw-w64-dua-cli
-  binname: mingw-w64-clang-x86_64-dua-cli
-  visiblename: mingw-w64-clang-x86_64-dua-cli
-  version: 3.0.0
-  origversion: 3.0.0-1
-  status: outdated
-  summary: View disk space usage and delete unwanted data, fast (mingw-w64)
-  licenses:
-    - spdx:MIT
 - repo: msys2_clangarm64
   srcname: mingw-w64-dua-cli
   binname: mingw-w64-clang-aarch64-dua-cli
   visiblename: mingw-w64-clang-aarch64-dua-cli
-  version: 3.0.0
-  origversion: 3.0.0-1
-  status: outdated
+  version: 3.0.1
+  origversion: 3.0.1-1
+  status: newest
   summary: View disk space usage and delete unwanted data, fast (mingw-w64)
   licenses:
     - spdx:MIT
@@ -1018,9 +1028,9 @@
   srcname: mingw-w64-dua-cli
   binname: mingw-w64-ucrt-x86_64-dua-cli
   visiblename: mingw-w64-ucrt-x86_64-dua-cli
-  version: 3.0.0
-  origversion: 3.0.0-1
-  status: outdated
+  version: 3.0.1
+  origversion: 3.0.1-1
+  status: newest
   summary: View disk space usage and delete unwanted data, fast (mingw-w64)
   licenses:
     - spdx:MIT
@@ -1046,6 +1056,19 @@
   maintainers:
     - figsoda@pm.me
     - killercup@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: dua
+  visiblename: dua
+  version: 2.32.0
+  origversion: null
+  status: outdated
+  summary: Tool to conveniently learn about the disk usage of directories
+  maintainers:
+    - figsoda@pm.me
+    - killercup@gmail.com
+    - defelo@github
   licenses:
     - MIT
 - repo: nix_stable_25_11
@@ -1084,29 +1107,6 @@
     - defelo@github
   licenses:
     - MIT
-- repo: openbsd
-  srcname: sysutils/dua
-  binname: dua
-  visiblename: sysutils/dua
-  version: 2.33.0
-  origversion: null
-  status: outdated
-  summary: disk usage analyzer
-  maintainers:
-    - edd@openbsd.org
-  categories:
-    - sysutils
-- repo: parabola
-  subrepo: extra
-  srcname: dua-cli
-  binname: dua-cli
-  visiblename: dua-cli
-  version: 3.0.0
-  origversion: 3.0.0-1
-  status: outdated
-  summary: A tool to conveniently learn about the disk usage of directories, fast!
-  licenses:
-    - MIT
 - repo: pkgsrc_2026_2
   srcname: sysutils/dua-cli
   binname: dua-cli
@@ -1135,9 +1135,9 @@
   srcname: sysutils/dua-cli
   binname: dua-cli
   visiblename: sysutils/dua-cli
-  version: 3.0.0
+  version: 3.0.1
   origversion: null
-  status: outdated
+  status: newest
   summary: View disk space usage and delete unwanted data
   maintainers:
     - pin@netbsd.org

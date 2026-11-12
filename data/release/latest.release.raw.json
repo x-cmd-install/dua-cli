@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2133726,
       "digest": "sha256:e1fd8f8c75eb425f56683ce6c0b224b1f639b57e1e1f2238f1b3232276389213",
-      "download_count": 24,
+      "download_count": 26,
       "created_at": "2026-11-09T20:15:08Z",
       "updated_at": "2026-11-09T20:15:09Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-aarch64-pc-windows-msvc.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2322541,
       "digest": "sha256:30b6e9f14c9ac6cf1daaf0f54f3e54bde6dd0e88daf4d3d95c0c8dd9c00b526b",
-      "download_count": 41,
+      "download_count": 66,
       "created_at": "2026-11-09T20:13:44Z",
       "updated_at": "2026-11-09T20:13:45Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-aarch64-unknown-linux-musl.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2322641,
       "digest": "sha256:1c7620054d87804255f0adb0529aaec1f483ba389a47d25601f4d48051d70ee3",
-      "download_count": 6,
+      "download_count": 7,
       "created_at": "2026-11-09T20:12:51Z",
       "updated_at": "2026-11-09T20:12:52Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-arm-unknown-linux-gnueabihf.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 2133689,
       "digest": "sha256:991c5094a5dead98947c126cca64ddcb0fe964a48343b682110ffc817b28d77b",
-      "download_count": 17,
+      "download_count": 20,
       "created_at": "2026-11-09T20:15:09Z",
       "updated_at": "2026-11-09T20:15:09Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-i686-pc-windows-msvc.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 2133714,
       "digest": "sha256:ff9064f1b0af51eeacaaa63a97c3628e670117a8f336710ee54fe96f54193b9d",
-      "download_count": 239,
+      "download_count": 327,
       "created_at": "2026-11-09T20:15:05Z",
       "updated_at": "2026-11-09T20:15:05Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-x86_64-pc-windows-msvc.zip"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 2501202,
       "digest": "sha256:a0834d1247c39a0048fa3e7f520a2afa23538c06c5945ca992e49813290319e0",
-      "download_count": 323,
+      "download_count": 508,
       "created_at": "2026-11-09T20:12:24Z",
       "updated_at": "2026-11-09T20:12:24Z",
       "browser_download_url": "https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-x86_64-unknown-linux-musl.tar.gz"
@@ -294,11 +294,11 @@
   "body": "This release fixes builds for free-desktop/linux, which is `not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")`\n\n### Commit Statistics\n\n - 1 commit contributed to the release over the course of 7 calendar days.\n - 7 days passed between releases.\n - 0 commits were understood as [conventional](https://www.conventionalcommits.org).\n - 0 issues like '(#ID)' were seen in commit messages\n\n### Commit Details\n\n<csr-read-only-do-not-edit/>\n\n<details><summary>view details</summary>\n\n * **Uncategorized**\n    - Merge pull request #426 from Byron/api-check (12fa207)\n</details>\n\n",
   "reactions": {
     "url": "https://api.github.com/repos/Byron/dua-cli/releases/439587481/reactions",
-    "total_count": 3,
+    "total_count": 4,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 2,
+    "hooray": 3,
     "confused": 0,
     "heart": 1,
     "rocket": 0,
