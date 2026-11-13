@@ -42,51 +42,53 @@ x install dua-cli
 
 ## 发布
 
-- **最新版本**: `v3.0.1` (2026-11-09)
-- **最近提交**: 2026-11-09
-- **Release 含资产**: 7 个
+- **最新版本**: `v3.0.3` (2026-11-12)
+- **最近提交**: 2026-11-12
+- **Release 含资产**: 9 个
 
 ## 流行度
 
-- **Star**: 6,449 · **Fork**: 181 · **开放 issue**: 189 · **贡献者**: 77
+- **Star**: 6,458 · **Fork**: 181 · **开放 issue**: 190 · **贡献者**: 77
 
 ## 累计统计
 
-- **发布数**: 125 · **已合并 PR**: 188 · **开放 PR**: 0 · **已关闭 issue**: 189 · **开放 issue**: 0 · **提交数**: 1351
+- **发布数**: 127 · **已合并 PR**: 190 · **开放 PR**: 0 · **已关闭 issue**: 190 · **开放 issue**: 0 · **提交数**: 1359
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 8 | 8 | 0 | 7 | 0 | 22 |
-| last60d | 2026-09-13 | 9 | 15 | 0 | 10 | 0 | 39 |
-| 90d | 2026-08-14 | 22 | 45 | 0 | 13 | 0 | 93 |
-| last180d | 2026-05-16 | 34 | 72 | 0 | 24 | 0 | 193 |
-| 360d | 2025-11-17 | 36 | 81 | 0 | 33 | 0 | 209 |
-| last720d | 2024-11-22 | 42 | 92 | 0 | 48 | 0 | 337 |
+| 30d | 2026-10-14 | 9 | 10 | 0 | 8 | 0 | 28 |
+| last60d | 2026-09-14 | 11 | 17 | 0 | 11 | 0 | 45 |
+| 90d | 2026-08-15 | 22 | 45 | 0 | 14 | 0 | 99 |
+| last180d | 2026-05-17 | 36 | 74 | 0 | 25 | 0 | 199 |
+| 360d | 2025-11-18 | 38 | 83 | 0 | 34 | 0 | 215 |
+| last720d | 2024-11-23 | 44 | 94 | 0 | 49 | 0 | 345 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [dua-v3.0.1-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-aarch64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/arm64` |
-| [dua-v3.0.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
-| [dua-v3.0.1-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-arm-unknown-linux-gnueabihf.tar.gz) | 2.2 MiB | `native/linux/arm/glibc` |
-| [dua-v3.0.1-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-i686-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
-| [dua-v3.0.1-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
-| [dua-v3.0.1-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-x86_64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
-| [dua-v3.0.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
+| [dua-v3.0.3-aarch64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-aarch64-apple-darwin.tar.gz) | 2.0 MiB | `native/darwin/arm64` |
+| [dua-v3.0.3-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-aarch64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/arm64` |
+| [dua-v3.0.3-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
+| [dua-v3.0.3-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-arm-unknown-linux-gnueabihf.tar.gz) | 2.2 MiB | `native/linux/arm/glibc` |
+| [dua-v3.0.3-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-i686-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
+| [dua-v3.0.3-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
+| [dua-v3.0.3-x86_64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-x86_64-apple-darwin.tar.gz) | 2.2 MiB | `native/darwin/x64` |
+| [dua-v3.0.3-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-x86_64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
+| [dua-v3.0.3-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/dua-cli) 上共有 **87** 个发行版报告此项目。**12** 个 ✅ 已是最新上游版本，**65** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/dua-cli) 上共有 **87** 个发行版报告此项目。**6** 个 ✅ 已是最新上游版本，**71** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
 | Debian unstable | `2.34.0` | ⚠️ outdated |
 | Debian 14 | `2.34.0` | ⚠️ outdated |
-| Arch | `3.0.1` | ✅ latest |
-| Homebrew | `3.0.1` | ✅ latest |
+| Arch | `3.0.3` | ✅ latest |
+| Homebrew | `3.0.3` | ✅ latest |
 | Fedora rawhide | `2.38.1` | ⚠️ outdated |
 | Nix unstable | `2.46.0` | ⚠️ outdated |
 | Void | `2.44.0` | ⚠️ outdated |
@@ -101,4 +103,4 @@ dua-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261112.yml` · 2026-11-12T07:54:14Z._
+_数据快照: `data/card/261113.yml` · 2026-11-13T07:23:35Z._

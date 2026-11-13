@@ -42,51 +42,53 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v3.0.1` (2026-11-09)
-- **Last commit**: 2026-11-09
-- **Assets in release**: 7
+- **Latest**: `v3.0.3` (2026-11-12)
+- **Last commit**: 2026-11-12
+- **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 6,449 · **Forks**: 181 · **Open issues**: 189 · **Contributors**: 77
+- **Stars**: 6,458 · **Forks**: 181 · **Open issues**: 190 · **Contributors**: 77
 
 ## Totals (cumulative)
 
-- **Releases**: 125 · **Merged PRs**: 188 · **Open PRs**: 0 · **Closed issues**: 189 · **Open issues**: 0 · **Commits**: 1351
+- **Releases**: 127 · **Merged PRs**: 190 · **Open PRs**: 0 · **Closed issues**: 190 · **Open issues**: 0 · **Commits**: 1359
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 8 | 8 | 0 | 7 | 0 | 22 |
-| last60d | 2026-09-13 | 9 | 15 | 0 | 10 | 0 | 39 |
-| 90d | 2026-08-14 | 22 | 45 | 0 | 13 | 0 | 93 |
-| last180d | 2026-05-16 | 34 | 72 | 0 | 24 | 0 | 193 |
-| 360d | 2025-11-17 | 36 | 81 | 0 | 33 | 0 | 209 |
-| last720d | 2024-11-22 | 42 | 92 | 0 | 48 | 0 | 337 |
+| 30d | 2026-10-14 | 9 | 10 | 0 | 8 | 0 | 28 |
+| last60d | 2026-09-14 | 11 | 17 | 0 | 11 | 0 | 45 |
+| 90d | 2026-08-15 | 22 | 45 | 0 | 14 | 0 | 99 |
+| last180d | 2026-05-17 | 36 | 74 | 0 | 25 | 0 | 199 |
+| 360d | 2025-11-18 | 38 | 83 | 0 | 34 | 0 | 215 |
+| last720d | 2024-11-23 | 44 | 94 | 0 | 49 | 0 | 345 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [dua-v3.0.1-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-aarch64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/arm64` |
-| [dua-v3.0.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
-| [dua-v3.0.1-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-arm-unknown-linux-gnueabihf.tar.gz) | 2.2 MiB | `native/linux/arm/glibc` |
-| [dua-v3.0.1-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-i686-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
-| [dua-v3.0.1-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
-| [dua-v3.0.1-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-x86_64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
-| [dua-v3.0.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
+| [dua-v3.0.3-aarch64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-aarch64-apple-darwin.tar.gz) | 2.0 MiB | `native/darwin/arm64` |
+| [dua-v3.0.3-aarch64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-aarch64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/arm64` |
+| [dua-v3.0.3-aarch64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
+| [dua-v3.0.3-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-arm-unknown-linux-gnueabihf.tar.gz) | 2.2 MiB | `native/linux/arm/glibc` |
+| [dua-v3.0.3-i686-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-i686-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
+| [dua-v3.0.3-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-riscv64gc-unknown-linux-gnu.tar.gz) | 2.3 MiB | `native/linux/riscv64/glibc` |
+| [dua-v3.0.3-x86_64-apple-darwin.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-x86_64-apple-darwin.tar.gz) | 2.2 MiB | `native/darwin/x64` |
+| [dua-v3.0.3-x86_64-pc-windows-msvc.zip](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-x86_64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/x64` |
+| [dua-v3.0.3-x86_64-unknown-linux-musl.tar.gz](https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
 
 ## Distribution status
 
-Reported by **87** distros on [repology.org](https://repology.org/project/dua-cli). **12** are ✅ on the latest upstream release, **65** are ⚠️ on an older version.
+Reported by **87** distros on [repology.org](https://repology.org/project/dua-cli). **6** are ✅ on the latest upstream release, **71** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `2.34.0` | ⚠️ outdated |
 | Debian 14 | `2.34.0` | ⚠️ outdated |
-| Arch | `3.0.1` | ✅ latest |
-| Homebrew | `3.0.1` | ✅ latest |
+| Arch | `3.0.3` | ✅ latest |
+| Homebrew | `3.0.3` | ✅ latest |
 | Fedora rawhide | `2.38.1` | ⚠️ outdated |
 | Nix unstable | `2.46.0` | ⚠️ outdated |
 | Void | `2.44.0` | ⚠️ outdated |
@@ -101,4 +103,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T07:54:13Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T07:23:34Z._
