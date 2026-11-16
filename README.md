@@ -26,13 +26,13 @@ Total: **29,920** lines of code across **74** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.6 / 10**
+Overall score: **3.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 4/14 approved changesets -- score normalized to 2
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (1/10) — Found 2/11 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,442 · **Forks**: 181 · **Open issues**: 190 · **Contributors**: 77
+- **Stars**: 6,444 · **Forks**: 181 · **Open issues**: 190 · **Contributors**: 77
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 7 | 9 | 0 | 7 | 0 | 28 |
-| last60d | 2026-09-16 | 11 | 17 | 0 | 11 | 0 | 45 |
-| 90d | 2026-08-17 | 20 | 39 | 0 | 14 | 0 | 99 |
-| last180d | 2026-05-19 | 36 | 74 | 0 | 24 | 0 | 199 |
-| 360d | 2025-11-20 | 38 | 83 | 0 | 34 | 0 | 215 |
-| last720d | 2024-11-25 | 44 | 94 | 0 | 49 | 0 | 345 |
+| 30d | 2026-10-17 | 7 | 9 | 0 | 7 | 0 | 26 |
+| last60d | 2026-09-17 | 11 | 17 | 0 | 11 | 0 | 45 |
+| 90d | 2026-08-18 | 20 | 38 | 0 | 14 | 0 | 98 |
+| last180d | 2026-05-20 | 36 | 74 | 0 | 24 | 0 | 199 |
+| 360d | 2025-11-21 | 38 | 83 | 0 | 34 | 0 | 214 |
+| last720d | 2024-11-26 | 44 | 94 | 0 | 49 | 0 | 345 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **87** distros on [repology.org](https://repology.org/project/dua-cli). **12** are ✅ on the latest upstream release, **65** are ⚠️ on an older version.
+Reported by **87** distros on [repology.org](https://repology.org/project/dua-cli). **16** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,7 +92,7 @@ Reported by **87** distros on [repology.org](https://repology.org/project/dua-cl
 | Fedora rawhide | `2.38.1` | ⚠️ outdated |
 | Nix unstable | `2.46.0` | ⚠️ outdated |
 | Void | `2.44.0` | ⚠️ outdated |
-| Alpine edge | `3.0.0` | ⚠️ outdated |
+| Alpine edge | `3.0.3` | ✅ latest |
 
 ## Improve this data
 
@@ -103,4 +103,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:01:43Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T07:29:22Z._
