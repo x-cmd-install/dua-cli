@@ -14,11 +14,11 @@ x install dua-cli
 
 ## Code insight
 
-Total: **29,920** lines of code across **74** files in the top 5 languages.
+Total: **30,013** lines of code across **74** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 29,285 | 262 | 2,217 | 63 |
+| Rust | 29,378 | 262 | 2,220 | 63 |
 | Sh | 438 | 13 | 63 | 7 |
 | Toml | 155 | 3 | 26 | 2 |
 | Makefile | 37 | 2 | 19 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.0.3` (2026-11-12)
-- **Last commit**: 2026-11-12
+- **Last commit**: 2026-11-16
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 6,444 · **Forks**: 181 · **Open issues**: 190 · **Contributors**: 77
+- **Stars**: 6,447 · **Forks**: 182 · **Open issues**: 190 · **Contributors**: 77
 
 ## Totals (cumulative)
 
-- **Releases**: 127 · **Merged PRs**: 190 · **Open PRs**: 0 · **Closed issues**: 190 · **Open issues**: 0 · **Commits**: 1359
+- **Releases**: 127 · **Merged PRs**: 191 · **Open PRs**: 1 · **Closed issues**: 190 · **Open issues**: 0 · **Commits**: 1361
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 7 | 9 | 0 | 7 | 0 | 26 |
-| last60d | 2026-09-17 | 11 | 17 | 0 | 11 | 0 | 45 |
-| 90d | 2026-08-18 | 20 | 38 | 0 | 14 | 0 | 98 |
-| last180d | 2026-05-20 | 36 | 74 | 0 | 24 | 0 | 199 |
-| 360d | 2025-11-21 | 38 | 83 | 0 | 34 | 0 | 214 |
-| last720d | 2024-11-26 | 44 | 94 | 0 | 49 | 0 | 345 |
+| 30d | 2026-10-18 | 7 | 10 | 1 | 7 | 0 | 27 |
+| last60d | 2026-09-18 | 11 | 18 | 1 | 11 | 0 | 46 |
+| 90d | 2026-08-19 | 20 | 39 | 1 | 14 | 0 | 99 |
+| last180d | 2026-05-21 | 36 | 75 | 1 | 24 | 0 | 200 |
+| 360d | 2025-11-22 | 38 | 84 | 1 | 34 | 0 | 215 |
+| last720d | 2024-11-27 | 44 | 95 | 1 | 49 | 0 | 347 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **87** distros on [repology.org](https://repology.org/project/dua-cli). **16** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
+Reported by **89** distros on [repology.org](https://repology.org/project/dua-cli). **18** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:29:22Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:58:14Z._
