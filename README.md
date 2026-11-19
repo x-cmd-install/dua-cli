@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,447 · **Forks**: 182 · **Open issues**: 190 · **Contributors**: 77
+- **Stars**: 6,451 · **Forks**: 182 · **Open issues**: 190 · **Contributors**: 77
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 7 | 10 | 1 | 7 | 0 | 27 |
-| last60d | 2026-09-18 | 11 | 18 | 1 | 11 | 0 | 46 |
-| 90d | 2026-08-19 | 20 | 39 | 1 | 14 | 0 | 99 |
-| last180d | 2026-05-21 | 36 | 75 | 1 | 24 | 0 | 200 |
-| 360d | 2025-11-22 | 38 | 84 | 1 | 34 | 0 | 215 |
-| last720d | 2024-11-27 | 44 | 95 | 1 | 49 | 0 | 347 |
+| 30d | 2026-10-20 | 7 | 10 | 1 | 7 | 0 | 27 |
+| last60d | 2026-09-20 | 11 | 18 | 1 | 11 | 0 | 46 |
+| 90d | 2026-08-21 | 20 | 38 | 1 | 14 | 0 | 99 |
+| last180d | 2026-05-23 | 36 | 75 | 1 | 23 | 0 | 200 |
+| 360d | 2025-11-24 | 38 | 83 | 1 | 34 | 0 | 215 |
+| last720d | 2024-11-29 | 44 | 95 | 1 | 49 | 0 | 347 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **89** distros on [repology.org](https://repology.org/project/dua-cli). **18** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
+Reported by **89** distros on [repology.org](https://repology.org/project/dua-cli). **19** are ✅ on the latest upstream release, **60** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for dua-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:58:14Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:17:30Z._
